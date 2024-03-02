@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(zingzong.jpg);
+  background-size: 200%;
+  background-position: center;
+}
+
+div.main {
+  width: 350px;
+  margin: 30px auto 0px auto;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+h3 {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+div.register {
+  background-color: rgba(187, 182, 182, 0.5);
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 15px rgba(255, 0, 0, 0.3);
+  color: #9e1a1a;
+}
+form#register {
+  margin: 40px;
+}
+label {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+input#name {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(247, 10, 10, 0.3);
+}
+input#name {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(255, 0, 0, 0.3);
+}
+input#Submit {
+  width: 320px;
+  padding: 7px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 3px;
+  background-color: rgba(226, 103, 21, 0.8);
+  color: #cf0101;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 5px rgba(232, 6, 6, 0.3);
+}
+input#notes {
+  height: 100px;
+  width: 300px;
+  border: 1px solid #9a3838;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #ffffff;
+  box-shadow: inset 1px 1px 5px rgba(194, 185, 185, 0.3);
+}
+label,
+span,
+h2 {
+  text-shadow: 1px 1px 5px rgba(177, 167, 167, 0.3);
+}
+h3 {
+  text-shadow: 1px 1px 5px rgba(177, 167, 167, 0.3);
+}
